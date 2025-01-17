@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -170,7 +170,7 @@ export default function Contact() {
               >
                 <FaLinkedin />
               </a>
-              <a
+{/*               <a
                 href="https://x.com/usagi6972"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -178,7 +178,7 @@ export default function Contact() {
                 aria-label="Twitter"
               >
                 <FaTwitter />
-              </a>
+              </a> */}
               <a
                 href="mailto:yurimasui02@gmail.com"
                 className="text-3xl hover:text-gray-400 transition duration-300"
