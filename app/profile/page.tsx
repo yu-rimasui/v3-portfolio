@@ -90,7 +90,6 @@ export default function Profile() {
               <br />
               ・GASやDifyなどを活用した業務自動化の導入支援
               <br />
-              <br />
               <strong>データ分析（学習中）</strong>
               <br />
               ・Pythonのライブラリを使用した分析

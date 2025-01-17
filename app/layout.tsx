@@ -9,10 +9,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "うさぎのページ🐇",
-  description: "パソコンオタクうさぎのポートフォリオです。",
+  description: "夢見るPCオタクうさぎのポートフォリオ",
   openGraph: {
     title: "うさぎのページ🐇",
-    description: "パソコンオタクうさぎのポートフォリオです。",
+    description: "夢見るPCオタクうさぎのポートフォリオ",
     images: ["/images/og-image.jpg"],
   },
 };
