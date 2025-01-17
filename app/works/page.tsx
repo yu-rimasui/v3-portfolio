@@ -11,8 +11,8 @@ const works = [
     image: "/images/project01.png",
     tech: ["JavaScript", "TypeScript", "Next.js"],
     links: {
-      github: "https://github.com/yu-rimasui",
-      live: "",
+      github: "https://github.com/yu-rimasui/v3-portfolio",
+      live: "https://v3-portfolio-seven.vercel.app",
     },
   },
   {
