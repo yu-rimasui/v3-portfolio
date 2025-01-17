@@ -76,3 +76,20 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* フォントを適用 */
+@font-face {
+  font-family: "GeistMono";
+  src: url("/fonts/GeistMonoVF.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/GeistVF.woff") format("woff");
+  font-display: swap;
+}
+
+body {
+  font-family: "GeistMono", sans-serif;
+}

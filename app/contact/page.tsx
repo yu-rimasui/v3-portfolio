@@ -40,14 +40,19 @@ export default function Contact() {
         }
       );
 
-      if (response.ok) {
-        setResponseMessage(
-          "メッセージが送信されました。ありがとうございます！"
-        );
-        setFormData({ name: "", email: "", message: "" });
-      } else {
-        setResponseMessage("送信に失敗しました。もう一度お試しください。");
-      }
+      setResponseMessage("メッセージが送信されました。ありがとうございます！");
+      setFormData({ name: "", email: "", message: "" });
+      console.log(response);
+
+      // no-cors設定のためレスポンスは来ない。
+      // if (response.ok) {
+      //   setResponseMessage(
+      //     "メッセージが送信されました。ありがとうございます！"
+      //   );
+      //   setFormData({ name: "", email: "", message: "" });
+      // } else {
+      //   setResponseMessage("送信に失敗しました。もう一度お試しください。");
+      // }
     } catch (error) {
       console.error("エラーが発生しました:", error);
       setResponseMessage("エラーが発生しました。もう一度お試しください。");
@@ -136,6 +141,7 @@ export default function Contact() {
             >
               {isSubmitting ? "Sending..." : "Send Message"}
             </button>
+            <p>{responseMessage}</p>
           </motion.form>
           <motion.div
             className="space-y-4 text-white"
@@ -144,11 +150,10 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <h2 className="text-2xl font-semibold mb-4">Connect Information</h2>
-            <p>{responseMessage}</p>
             {/* ソーシャルアイコン */}
             <div className="flex space-x-4">
               <a
-                href="https://github.com/masui.y"
+                href="https://github.com/yu-rimasui"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl hover:text-gray-400 transition duration-300"
@@ -166,7 +171,7 @@ export default function Contact() {
                 <FaLinkedin />
               </a>
               <a
-                href="https:/x.com/usagi6972"
+                href="https://x.com/usagi6972"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl hover:text-gray-400 transition duration-300"

@@ -48,6 +48,10 @@ export default function Home() {
               x: `${dot.x + Math.random() * 20 - 10}vw`, // ホバー時のランダムな動き
               y: `${dot.y + Math.random() * 20 - 10}vh`,
             }}
+            whileTap={{
+              x: `${dot.x + Math.random() * 20 - 10}vw`, // タップ時のランダムな動き
+              y: `${dot.y + Math.random() * 20 - 10}vh`,
+            }}
             transition={{
               duration: 0.5,
               type: "spring",

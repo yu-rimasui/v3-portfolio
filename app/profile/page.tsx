@@ -85,9 +85,11 @@ export default function Profile() {
               <br />
               ・ReactやNext.jsを用いたた、高速で直感的なWebサイトやホームページ（HP）の構築
               <br />
+              <br />
               <strong>業務自動化サポート</strong>
               <br />
               ・GASやDifyなどを活用した業務自動化の導入支援
+              <br />
               <br />
               <strong>データ分析（学習中）</strong>
               <br />
