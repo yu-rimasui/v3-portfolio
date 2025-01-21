@@ -67,7 +67,7 @@ export default function Profile() {
                 className="rounded-full mx-auto shadow-xl object-cover border-2 border-gray-300 p-1 bg-white ring-2 ring-indigo-300"
               />
             </div>
-            <p>平成14年生まれ、東京育ち。SFオタク。</p>
+            <p>平成14年生まれ、東京育ち。夢見るSFオタク。</p>
             <br />
             <h2 className="text-2xl font-semibold mb-4">スキル</h2>
             <div className="flex flex-wrap gap-2 mb-4">
