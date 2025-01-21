@@ -81,20 +81,36 @@ export default function Profile() {
             <p className="mb-4">
               <strong>フロントエンド開発</strong>
               <br />
-              ・レスポンシブデザイン対応のWebページやランディングページ（LP）の作成
+              ・HTML・CSS：レスポンシブデザイン対応のランディングページ（LP）や、ページ遷移可能なホームページ（HP）の作成
               <br />
-              ・ReactやNext.jsを用いたた、高速で直感的なWebサイトやホームページ（HP）の構築
+              ・JavaScript：インタラクティブな機能を備えたWebサイトの構築
+              <br />
+              ・React・Next.js：高速かつ直感的なWebアプリケーションやサイトの開発
+              <br />
+              ・作成例：電卓、診断ツール、ToDoリスト、タスク管理アプリなど
               <br />
               <br />
-              <strong>業務自動化サポート</strong>
+              <strong>バックエンド開発</strong>
               <br />
-              ・GASやDifyなどを活用した業務自動化の導入支援
+              ・Node.js・MySQL：データベース連携が可能なWebアプリケーションの構築
               <br />
-              <strong>データ分析（学習中）</strong>
+              ・AWS（学習中）：クラウド環境を活用したWebサービスの運用
               <br />
-              ・Pythonのライブラリを使用した分析
               <br />
-              ・Kaggleのコンペに挑戦しています
+              <strong>業務自動化・効率化サポート</strong>
+              <br />
+              ・Google関連ツール（Google Apps Script、BigQuery、Looker Studio）：スプレッドシートやGoogleフォームを活用した自動化ツールの作成、大規模データのクエリ処理や可視化、データレポートの作成
+              <br />
+              ・Dify：チャットボットやAIを活用した業務効率化システムの導入支援
+              <br />
+              <br />
+              <strong>データ分析</strong>
+              <br />
+              ・Python：PandasやMatplotlibなどのライブラリを使用したデータ分析やレポート作成
+              <br />
+              ・作成例：売上レポートやトレンド分析
+              <br />
+              ・Kaggle：データ分析や機械学習のスキル向上のためコンペに挑戦中
               <br />
             </p>
           </motion.div>
