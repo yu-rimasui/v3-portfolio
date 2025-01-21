@@ -58,13 +58,11 @@ export default function Profile() {
               新しい技術やトレンドのキャッチアップを欠かさず、日々成長し続けることがモットー。自分の可能性は無限大✨
               <br />
             </p>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="text-white"
-          >
+            <br />
+            <div className="my-8">
+              <img src="/images/about.jpg" alt="プロフィール画像" className="rounded-full mx-auto shadow-lg w-40 h-40 object-cover" />
+            </div>
+            <br />
             <h2 className="text-2xl font-semibold mb-4">スキル</h2>
             <div className="flex flex-wrap gap-2 mb-4">
               {skills.map((skill) => (
@@ -76,7 +74,13 @@ export default function Profile() {
                 </span>
               ))}
             </div>
-            <br />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+            className="text-white"
+          >
             <h2 className="text-2xl font-semibold mb-4">できること</h2>
             <p className="mb-4">
               <strong>フロントエンド開発</strong>
@@ -87,7 +91,7 @@ export default function Profile() {
               <br />
               ・React・Next.js：高速かつ直感的なWebアプリケーションやサイトの開発
               <br />
-              ・作成例：電卓、診断ツール、ToDoリスト、タスク管理アプリなど
+              ＊作成例：電卓、診断ツール、ToDoリスト、タスク管理アプリなど
               <br />
               <br />
               <strong>バックエンド開発</strong>
@@ -107,8 +111,6 @@ export default function Profile() {
               <strong>データ分析</strong>
               <br />
               ・Python：PandasやMatplotlibなどのライブラリを使用したデータ分析やレポート作成
-              <br />
-              ・作成例：売上レポートやトレンド分析
               <br />
               ・Kaggle：データ分析や機械学習のスキル向上のためコンペに挑戦中
               <br />
