@@ -18,21 +18,31 @@ const works = [
   {
     id: 2,
     title: "Calculator",
-    image: "/images/project02.jpg",
+    image: "/images/project02.png",
     tech: ["JavaScript", "React"],
     links: {
-      github: "https://github.com/yu-rimasui/work04_calculator",
-      live: "",
+      github: "https://github.com/yu-rimasui/w2307_Calculator",
+      live: "https://w2307-calculator.vercel.app/",
     },
   },
   {
     id: 3,
     title: "Weekly Schedule",
-    image: "/images/project03.jpg",
+    image: "/images/project03.png",
+    tech: ["TypeScript", "React", "Next.js"],
+    links: {
+      github: "https://github.com/yu-rimasui/w2310_Weekly",
+      live: "https://w05-weekly-git-main-yu-rimasuis-projects.vercel.app",
+    },
+  },
+  {
+    id: 4,
+    title: "Diagnostic Test",
+    image: "/images/project04.png",
     tech: ["JavaScript", "React"],
     links: {
-      github: "https://github.com/yu-rimasui/work05_scheduleApp",
-      live: "",
+      github: "https://github.com/yu-rimasui/w2411_Diagnostic",
+      live: "https://w2411-diagnostic.vercel.app/",
     },
   },
   // 必要に応じてプロジェクトを追加
