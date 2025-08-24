@@ -31,7 +31,7 @@ const generateDots = (
 const navItems = [
   { name: "Home", href: "/" },
   { name: "Works", href: "/works" },
-  { name: "Profile", href: "/profile" },
+  { name: "About", href: "/profile" },
   { name: "Contact", href: "/contact" },
 ];
 

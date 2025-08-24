@@ -63,7 +63,7 @@ export default function Works() {
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       {/* コンテンツをラップする要素 */}
-      <div className="relative z-10 container mx-auto px-4 py-16">
+      <div className="relative z-10 container mx-auto px-4 py-20">
         <motion.h1
           className="text-4xl font-bold mb-8 text-white"
           initial={{ opacity: 0, y: -50 }}
