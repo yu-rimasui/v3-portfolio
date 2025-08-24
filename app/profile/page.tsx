@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Image from "next/image";
 
 const skills = [
@@ -144,7 +145,7 @@ export default function Profile() {
               <br />
               <strong>バックエンド開発 / クラウド</strong>
               <br /> <br />
-              <span className="underline">Node.js・MySQL</span><br />個人開発において、Node.js, MySQLを用いたデータベース連携Webアプリケーションの設計・開発<br />
+              <span className="underline">Node.js / MySQL</span><br />個人開発において、Node.js, MySQLを用いたデータベース連携Webアプリケーションの設計・開発<br />
               <span className="underline">AWS</span><br />個人開発において、EC2, S3, RDSなど主要サービスを活用したインフラ構築を経験<br />
               <span className="underline">GCP</span><br />Google関連ツールの一部：GAS、BigQuery、Looker Studioの使用経験<br />
               <br />
@@ -159,12 +160,49 @@ export default function Profile() {
               <Image
                 src="/images/about.jpg"
                 alt="プロフィール画像"
-                width={250}
-                height={250}
-                // className="mx-auto shadow-xl object-cover border-2 border-gray-300 p-1 bg-white ring-2 ring-indigo-300"
+                width={150}
+                height={150}
+                className="ms-3 shadow-xl object-cover border-gray-300 p-1 bg-white"
               />
             </div>
             <p>H14生まれ、東京育ち。夢見るSFオタク。</p>
+            <div className="flex space-x-4 mt-3">
+              <a
+                href="https://github.com/yu-rimasui"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-3xl hover:text-gray-400 transition duration-300"
+                aria-label="GitHub"
+              >
+                <FaGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/yu-ri-masui-1b7970345/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-3xl hover:text-gray-400 transition duration-300"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedin />
+              </a>
+              {/* <a
+                href="https://x.com/usagi6972"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-3xl hover:text-gray-400 transition duration-300"
+                aria-label="Twitter"
+              >
+                <FaTwitter />
+              </a> */}
+              <a
+                href="mailto:yurimasui02@gmail.com"
+                className="text-3xl hover:text-gray-400 transition duration-300"
+                aria-label="Email"
+              >
+                <FaEnvelope />
+              </a>
+            </div>
+
 
           </motion.div>
         </div>

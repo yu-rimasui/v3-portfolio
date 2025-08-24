@@ -65,7 +65,7 @@ export default function Home() {
       {/* コンテンツ */}
       <div className="relative z-10 text-center">
         <motion.h1
-          className="text-6xl font-bold mb-4 text-white"
+          className="text-6xl font-bold mb-4 text-white italic"
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
