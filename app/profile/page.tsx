@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Image from "next/image";
 
-const skills = [
-  "JavaScript",
-  "Python",
-  "React",
-  "Next.js",
-  "TypeScript",
-  "Node.js",
-];
+// const skills = [
+//   "JavaScript",
+//   "Python",
+//   "React",
+//   "Next.js",
+//   "TypeScript",
+//   "Node.js",
+// ];
 
 export default function Profile() {
   return (
