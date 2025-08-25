@@ -8,11 +8,11 @@ import WarpTransition from "../components/WarpTransition";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "うさぎのページ🐇",
-  description: "夢見るPCオタクうさぎのポートフォリオ",
+  title: "yu-rimasui's Portfolio",
+  description: "this is yur-rimasui's portfolio website",
   openGraph: {
-    title: "うさぎのページ🐇",
-    description: "夢見るPCオタクうさぎのポートフォリオ",
+    title: "yu-rimasui's Portfolio",
+    description: "this is yur-rimasui's portfolio website",
     images: ["/images/og-image.jpg"],
   },
 };

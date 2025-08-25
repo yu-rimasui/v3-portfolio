@@ -46,7 +46,7 @@ export default function Profile() {
           >
             <h2 className="text-2xl font-semibold mb-4">自己紹介</h2>
             <p className="mb-4">
-              初めまして。crocoと申します。<br />
+              初めまして。masui yu-riと申します。<br />
               <br />
               趣味はAIや最新デバイスなどのキャッチアップ。好奇心に生かされている、SFオタクです。<br />
               将来は、物理空間とAIエージェントを融合させたフィールドで活躍したいです。<br />
@@ -86,7 +86,7 @@ export default function Profile() {
                             <td className="border border-gray-600 p-2">2024.9-</td>
                             <td className="border border-gray-600 p-2">
                                 <span className="underline">フリーランス活動</span>を開始<br />
-                                約半年でWebアプリケーションを2件納品
+                                これまでにWebアプリケーションを2件納品
                             </td>
                         </tr>
                         <tr>
